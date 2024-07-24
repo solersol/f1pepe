@@ -87,7 +87,7 @@ const Roadmap3 = () => {
       <img 
         src={bottomRightImage} 
         alt="Bottom Right" 
-        className="absolute right-8 bottom-8 w-auto h-auto z-20 hidden md:block"
+        className="absolute right-8  w-auto h-auto z-20 hidden md:block"
       />
     </section>
   );

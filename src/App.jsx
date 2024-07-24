@@ -41,7 +41,7 @@ const App = () => {
   // }
 return(
   <main className="relative bg-[#000]" style={{ backgroundImage: `url(${mainbg})` }}>
-    {/* <Nav /> */}
+    <Nav />
    
 
   
@@ -67,7 +67,7 @@ return(
 
     <Separator />
 
-    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section>
+    {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
     
  
    
