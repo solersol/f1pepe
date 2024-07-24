@@ -19,6 +19,8 @@ import videoBg2 from './vidbg2.mp4'
 import logoImage from './logo.png'
 import leftImage from './bg9.png'
 import bottomRightImage from './pepe.png'
+import chartImage from './chartImage.png'
+
 
 
 
@@ -48,7 +50,8 @@ export {
     logoImage,
     leftImage,
     bottomRightImage,
-    bg6
+    bg6,
+    chartImage
 
 
 }

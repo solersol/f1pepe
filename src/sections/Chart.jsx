@@ -1,11 +1,17 @@
+
+
 import React from 'react';
+import {chartImage} from '../assets/images'; // Replace with your actual image path
 
 const Chart = () => {
   return (
-    <section className="w-full flex justify-center items-center">
-      <div className="w-full max-w-6xl">
+    <section 
+      className="relative w-full h-screen flex justify-center items-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${chartImage})` }}
+    >
+      <div className="w-full max-w-6xl mb-64 bg-black bg-opacity-50 p-8 rounded-lg">
         <iframe
-          src="https://pump.fun/HGzKwNFuuGzjWA9VW3DuK9x4jaYyQ6sFz4D2FwRPpump?embed=1&theme=dark&trades=0&info=0"
+          src="https://pump.fun/?embed=1&theme=dark&trades=0&info=0"
           width="100%"
           height="500px"
           loading="lazy"
@@ -24,3 +30,6 @@ const Chart = () => {
 };
 
 export default Chart;
+
+
+
