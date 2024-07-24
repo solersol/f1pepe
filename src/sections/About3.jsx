@@ -166,7 +166,7 @@ const About3 = () => {
       <img
         src={bg6}
         alt="Background"
-        className={`absolute inset-0 w-full h-full object-cover z-0 transition-transform duration-1000 ease-in-out ${
+        className={`absolute inset-0 w-full h-full object-cover z-0 transition-transform duration-2000 ease-in-out ${
           isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
         }`}
       />
