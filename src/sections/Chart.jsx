@@ -11,7 +11,7 @@ const Chart = () => {
     >
       <div className="w-full max-w-6xl mb-64 bg-black bg-opacity-50 p-8 rounded-lg">
         <iframe
-          src="https://pump.fun/?embed=1&theme=dark&trades=0&info=0"
+          src="https://pump.fun/ErAM6p3LebHkPX5vaA9pmQMNSdghMBjytnQHG6Y6NS3a?embed=1&theme=dark&trades=0&info=0"
           width="100%"
           height="500px"
           loading="lazy"
