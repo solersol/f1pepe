@@ -98,8 +98,8 @@ const About3 = () => {
       {/* Text content */}
       <div
         ref={contentRef}
-        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-8 pb-96 rounded-lg z-10 transition-transform duration-1000 ease-in-out ${
-          isVisible ? 'scale-100 opacity-100 translate-y-0' : 'scale-90 opacity-0 translate-y-10'
+        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-8  rounded-lg z-10 transition-transform duration-1000 ease-in-out ${
+          isVisible ? 'scale-100 opacity-100 translate-y-0 pb-96' : 'scale-90 opacity-0 translate-y-10 '
         }`}
       >
         <h1 className="text-4xl md:text-5xl font-anton text-center mb-6">WHATS $F1PEPE</h1>
